@@ -34,6 +34,16 @@ public class CorrectPin extends JLabel{
         generateNextPlace();
     }
 
+    CorrectPin(boolean onlyImage) {
+        try {
+            setIcon(new ImageIcon(ImageIO.read(new File("resources/correctPin.png"))));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        setSize(25,40);
+        setVisible(onlyImage);
+    }
+
     public void generateNextPlace(){
 
         Random rand = new Random();

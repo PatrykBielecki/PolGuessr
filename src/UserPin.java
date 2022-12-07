@@ -17,4 +17,16 @@ public class UserPin extends JLabel {
         setSize(25,40);
     }
 
+    UserPin(boolean onlyImage) {
+        try {
+            setIcon(new ImageIcon(ImageIO.read(new File("resources/userPin.png"))));
+        } catch (
+                IOException e) {
+            e.printStackTrace();
+        }
+        setSize(25,40);
+        setVisible(onlyImage);
+    }
+
+
 }
