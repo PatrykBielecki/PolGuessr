@@ -1,12 +1,8 @@
 Użytkownik: Patryk
- Wynik: 2576
+ Wynik: 3056
 
 
-Użytkownik: Patryk
- Wynik: 704
-
-
-Użytkownik: null
- Wynik: 2580
+Użytkownik: Gość
+ Wynik: 2832
 
 
